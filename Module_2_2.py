@@ -19,7 +19,6 @@ while True:
     except:
         print()
         print("Повторите ввод без ошибок !")
-        continue
 
 while True:
     try:
@@ -28,16 +27,15 @@ while True:
     except:
         print()
         print("Повторите ввод без ошибок !")
-        continue
 
 while True:
     try:
-        third  = int(input("Введите третее число >> "))
+        third  = int(input("Введите третье число >> "))
         break
     except:
         print()
         print("Повторите ввод без ошибок !")
-        continue
+
 
 if first == second and second == third:
     print("Результат: 3")
