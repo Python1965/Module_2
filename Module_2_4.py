@@ -24,14 +24,12 @@ for item in numbers:
         primes.append(item)
         continue
 
-    simple = 0
-    for divider in range(2, item//2+1):
+    for divider in range(2, item // 2 + 1):
         if item % divider == 0:
             not_primes.append(item)
             break
-        else: simple = divider
-
-    if simple == item//2: primes.append(item)
+        else:
+            if divider == item // 2: primes.append(item)
 
 print("Простые: ", primes)
 print("Составные: ", not_primes)
