@@ -33,8 +33,8 @@ for item in numbers:
 
     if simple == item//2: primes.append(item)
 
-    print("Простые: ", primes)
-    print("Составные: ", not_primes)
+print("Простые: ", primes)
+print("Составные: ", not_primes)
 
 
 
