@@ -29,7 +29,8 @@ for item in numbers:
             not_primes.append(item)
             break
         else:
-            if divider == item // 2: primes.append(item)
+            if divider == item // 2:
+                primes.append(item)
 
 print("Простые: ", primes)
 print("Составные: ", not_primes)
